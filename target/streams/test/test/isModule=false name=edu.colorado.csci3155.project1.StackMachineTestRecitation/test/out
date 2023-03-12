@@ -1,0 +1,14 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mStackMachineTestRecitation:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 1: Empty Instruction List[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 2: PopI - when Empty Stack[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 3: PushNumI(d:Double)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 4: PushBoolI(b:Bool)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 5: PushNumI(d:Double) + PopI[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 6: Load Env - when Empty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- stack machine test 7: Load Env - when Non-Empty *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "[ErrLoadEnv.1: Stack is Empty. Cannot LoadEnv.]" did not equal "[head of empty list]" (StackMachineTest.scala:345)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 8: Add 2 numbers. Correct input. [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- stack machine test 9: Add 2 numbers. INSUFFICIENT input.  *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "[Stack is empty]" did not equal "[ErrAddI.1: Stack of Insufficient size. Cannot AddI.]" (StackMachineTest.scala:398)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- stack machine test 10: Add 2 numbers. Incorrect input.  *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "[Type mismatch in conversion to double]" did not equal "[ErrAddI.2: Entries in OperandStack of Incorrect DataType. Cannot AddI.]" (StackMachineTest.scala:410)[0m[0m

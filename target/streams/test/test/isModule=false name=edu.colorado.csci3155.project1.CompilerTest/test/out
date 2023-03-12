@@ -1,0 +1,210 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mCompilerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple expression 1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Const(1.0)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$1(CompilerTest.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple expression 2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Plus(Const(1.0),Const(2.5))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$2(CompilerTest.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple expression 3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Minus(Plus(Const(1.5),Const(2.4)),Mult(Const(2.5),Const(2.5)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$3(CompilerTest.scala:32)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple expression 4 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Log(Plus(Exp(Minus(Plus(Const(1.5),Const(2.4)),Mult(Const(2.5),Const(2.5)))),Exp(Plus(Const(1.0),Const(2.5)))))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$4(CompilerTest.scala:42)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Ident Test 1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Let(x,Const(1.0),Ident(x))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$5(CompilerTest.scala:53)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Ident Test 2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Let(x,Const(1.5),Plus(Ident(x),Ident(x)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$6(CompilerTest.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Ident Test 3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Let(x,Const(1.5),Let(y,Plus(Ident(x),Const(1.0)),Mult(Ident(x),Ident(y))))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$7(CompilerTest.scala:73)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Ident Test 4 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Let(x,Let(x,Const(1.0),Plus(Ident(x),Const(1.0))),Plus(Ident(x),Const(2.0)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$8(CompilerTest.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Ident Test 5 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Let(x,Const(1.0),Let(y,Let(x,Const(5.0),Mult(Ident(x),Const(3.0))),Minus(Ident(x),Ident(y))))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$9(CompilerTest.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- If-then-else-test-1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Let(x,Const(25.0),IfThenElse(Geq(Ident(x),Const(25.0)),Plus(Ident(x),Const(25.5)),Const(43.0)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$10(CompilerTest.scala:153)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  + Expression: Let(x,Const(25.0),IfThenElse(Geq(Ident(x),Const(25.0)),Plus(Ident(x),Const(25.5)),Const(43.0))) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- If-then-else-test-2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Let(y,Const(24.5),Let(x,Plus(Ident(y),Const(45.0)),IfThenElse(Geq(Ident(x),Const(25.0)),Plus(Ident(x),Const(25.5)),Const(43.0))))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$11(CompilerTest.scala:181)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-and-simple-1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle And(Geq(Const(1.0),Const(0.0)),Geq(Const(5.0),Const(-4.0)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$12(CompilerTest.scala:208)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-and-simple-2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle And(Geq(Const(1.0),Const(5.0)),Div(Const(5.0),Const(0.0)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$13(CompilerTest.scala:226)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-and-simple-3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle And(Geq(Const(5.0),Const(1.0)),Geq(Const(-4.0),Const(5.0)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$14(CompilerTest.scala:245)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-or-simple-1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Or(Geq(Const(1.0),Const(5.0)),Geq(Const(5.0),Const(-4.0)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$15(CompilerTest.scala:263)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test-or-not-1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: I do not handle Not(Or(Geq(Const(5.0),Const(1.0)),Geq(Div(Const(0.0),Const(0.0)),Const(0.0))))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project1.CompilerTest.$anonfun$new$16(CompilerTest.scala:282)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
